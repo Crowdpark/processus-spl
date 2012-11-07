@@ -10,4 +10,17 @@ namespace Processus\Spl\Interfaces;
 interface DataVoInterface
 {
 
+    public function setData($data = array());
+
+    public function getData();
+
+    public function unsetData();
+
+    public function getDataKey($key);
+
+    public function setDataKey($key, $value);
+
+    public function hasDataKey($key);
+
+    public function unsetDataKey($key);
 }
