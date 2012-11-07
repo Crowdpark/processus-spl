@@ -1,0 +1,28 @@
+{
+    "name":"processus/spl",
+    "type":"library",
+    "description":"Standard lib for all Processus modules",
+    "keywords":["library", "standard", "library"],
+    "homepage":"http://github.com/Crowdpark/processus-spl",
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/Crowdpark/processus-spl/issues"
+    },
+    "authors":[
+        {
+            "name":"Francis Varga",
+            "email":"fv@crowdpark.com",
+            "homepage":"http://www.crowdpark.com",
+            "role":"Developer"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Processus\\":"src"
+        }
+    },
+    "require":{
+        "php":">=5.3.3"
+    },
+    "minimum-stability":"dev"
+}
