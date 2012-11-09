@@ -2,7 +2,7 @@
 
 namespace Processus\Spl\Base;
 
-class BaseVo implements \Processus\Spl\Interfaces\DataVoInterface
+class BaseVo implements \Processus\Spl\Interfaces\DataVoInterfac
 {
 
     /**
