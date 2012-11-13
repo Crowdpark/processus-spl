@@ -6,7 +6,7 @@
  * Time: 12:16 PM
  * To change this template use File | Settings | File Templates.
  */
-namespace Processus\Spl\Interfaces;
+namespace Processus\Spl\Base;
 interface DataVoInterface
 {
 
