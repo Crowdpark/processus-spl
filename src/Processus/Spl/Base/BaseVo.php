@@ -2,7 +2,7 @@
 
 namespace Processus\Spl\Base;
 
-class BaseVo implements \Processus\Spl\Interfaces\DataVoInterface
+class BaseVo implements DataVoInterface
 {
 
     /**
@@ -85,7 +85,7 @@ class BaseVo implements \Processus\Spl\Interfaces\DataVoInterface
         $data = $this->_data;
 
         if (!is_array($data)) {
-            $data = array();
+            $data        = array();
             $this->_data = $data;
         }
         if (!array_key_exists($key, $data)) {
@@ -179,8 +179,7 @@ class BaseVo implements \Processus\Spl\Interfaces\DataVoInterface
      */
     public function ensureData(
         $dictionary = array()
-    )
-    {
+    ) {
         $result = $this;
 
         if (!is_array($this->_data)) {
