@@ -81,7 +81,7 @@ class BaseVo implements DataVoInterface
      *
      * @return mixed
      */
-    public function getDataByKey($key)
+    public function getValueByKey($key)
     {
         $result = null;
 
@@ -105,7 +105,7 @@ class BaseVo implements DataVoInterface
      *
      * @return BaseVo
      */
-    public function setDataByKey($key, $value)
+    public function setValueByKey($key, $value)
     {
         $result = $this;
 
