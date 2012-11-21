@@ -7,6 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 namespace Processus\Spl\Base;
+
 interface DataVoInterface
 {
 
@@ -16,9 +17,9 @@ interface DataVoInterface
 
     public function unsetData();
 
-    public function getDataKey($key);
+    public function getDataByKey($key);
 
-    public function setDataKey($key, $value);
+    public function setDataByKey($key, $value);
 
     public function hasDataKey($key);
 

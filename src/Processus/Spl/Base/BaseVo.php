@@ -13,6 +13,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param array $data
+     *
      * @return BaseVo
      */
     public function setData($data = array())
@@ -49,6 +50,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param array $mixin
+     *
      * @return BaseVo
      */
     public function mixinData($mixin = array())
@@ -76,9 +78,10 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param $key
+     *
      * @return mixed
      */
-    public function getDataKey($key)
+    public function getDataByKey($key)
     {
         $result = null;
 
@@ -99,9 +102,10 @@ class BaseVo implements DataVoInterface
     /**
      * @param $key
      * @param $value
+     *
      * @return BaseVo
      */
-    public function setDataKey($key, $value)
+    public function setDataByKey($key, $value)
     {
         $result = $this;
 
@@ -116,6 +120,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param $key
+     *
      * @return bool
      */
     public function hasDataKey($key)
@@ -133,6 +138,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param $key string
+     *
      * @return BaseVo
      */
     public function unsetDataKey($key)
@@ -150,6 +156,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param array $keysList
+     *
      * @return BaseVo
      */
     public function unsetDataKeys($keysList = array())
@@ -175,6 +182,7 @@ class BaseVo implements DataVoInterface
 
     /**
      * @param array $dictionary
+     *
      * @return BaseVo
      */
     public function ensureData(
