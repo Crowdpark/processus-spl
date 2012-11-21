@@ -17,9 +17,9 @@ interface DataVoInterface
 
     public function unsetData();
 
-    public function getDataByKey($key);
+    public function getValueByKey($key);
 
-    public function setDataByKey($key, $value);
+    public function setValueByKey($key, $value);
 
     public function hasDataKey($key);
 
